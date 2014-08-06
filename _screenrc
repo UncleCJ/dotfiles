@@ -1,0 +1,6 @@
+sessionname default
+screen -t irssi 0 irssi
+screen -t mc 1 mc
+screen -t top 9 top
+screen -t iftop 8 sudo iftop -i br0
+screen -t tahoe 7 tahoe run ~/.tahoe 
