@@ -1,0 +1,82 @@
+presets:
+  TV:
+    series_premiere:
+      set:
+        movedone: "/mnt/data/media/Video/TV series/%(series_name)s/Season %(series_season)s/"
+
+    series:
+      settings:
+        foobar:
+          set:
+            quality:
+              - 480p 
+              - dvdrip 
+              - tvrip
+              - 720p 
+            movedone: "/mnt/data/media/Video/TV series/%(series_name)s/Season %(series_season)s/"
+          
+      foobar:
+#        - Doctor Who
+        - Black Mirror
+        - Top Gear
+        - The Office
+        - Mythbusters
+        - Curb Your Enthusiasm
+        - The Daily Show
+        - The Colbert Report
+        - The Walking Dead
+        - The Big Bang Theory
+        - True Blood
+        - An Idiot Abroad
+        - Dexter
+        - Scrubs
+        - Alcatraz
+        - Edwardian Farm
+        - Victorian Farm
+        - Danger 5
+        - Happy Endings
+#        - Game of Thrones
+        - True Love
+        - Dead Boss
+        - Tron Uprising
+        - GCB
+        - Hacks
+        - Continuum
+        - The Hollow Crown
+        - Anger Management
+        - Polyamory Married and Dating
+        - Black Dynamite
+        - House Of Cards
+        - House Of Lies
+        - Person Of Interest
+        - Banshee
+        - Family Tree
+        - Falling Skies
+        - Under The Dome
+        - Wilfred (US)
+        - Siberia
+        - Brooklyn Nine Nine
+        - The Tudors
+        - Legend of the Seeker
+        - Breaking Bad
+        - Axe Cop
+        - What Remains
+        - Al Jazeera The War In October
+        - Discovery Nerve Center
+        - The Tomorrow People Us
+        - Ch4 Grand Designs
+        - Ch4 Kevin Mcclouds Man Made Home
+        - Ch4 My Tattoo Addiction Series
+        - Bbc Cold War Hot Jets
+        - Marvels Agents Of S.H.I.E.L.D
+        - Halt and Catch Fire
+        - The L Word
+        - The Last Ship
+
+    deluge: yes
+#    download: ~/torrents/
+    
+
+feeds:
+   # Insert your feeds here, they are private ;-)
+
