@@ -1,0 +1,19 @@
+[user]
+	name = Konfigurera namn i ~/.gitconfig
+	email = fornamn.efternamn@email.com
+
+[alias]
+	co = checkout
+	st  = status
+	cam = commit -a -m
+	br  = branch
+	co  = checkout
+	logg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	# Add all tracked files to previous commit, using the that commits message
+	amend = git commit --amend -C HEAD
+	# Add changes to be committed to previous commit, using a message you define
+	amendm = git commit --amend -m
+[push]
+	default = simple
+[merge]
+	tool = meld
