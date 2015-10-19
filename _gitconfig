@@ -1,0 +1,46 @@
+
+[user]
+	name = CJ Sveningsson
+	email = cj.sveningsson@fgirot.se
+[alias]
+	co = checkout
+	st  = status
+	cam = commit -a -m
+	br  = branch
+	co  = checkout
+	logg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	# Add all tracked files to previous commit, using the that commits message
+	amend = commit --amend -C HEAD
+	# Add changes to be committed to previous commit, using a message you define
+	amendm = commit --amend -m
+	pushf = push --force-with-lease
+	rh = reset --hard 
+	move = mv
+	copy = cp
+[rerere]
+	enabled = true
+[core]
+	editor = vim
+	# BUG: autocrlf seems pesky, disable it
+	autocrlf = false
+	# TODO: gitconfig on windows needs cleaning
+	#excludesfile = C:\\Users\\carl-johan.sveningss\\Documents\\gitignore_global.txt
+	# TODO: Need to write a wrapper script to use windows tools?
+	# http://stackoverflow.com/questions/1634161/how-do-i-use-notepad-or-other-with-msysgit
+	# C:/Program Files (x86)/Notepad++/notepad++.exe
+[pull]
+	rebase = true
+[push]
+	default = upstream
+[rerere]
+	enabled = true
+# TODO: Trying to do this on windows
+# http://stackoverflow.com/questions/14821358/git-mergetool-with-meld-on-windows
+[merge]
+	tool = meld
+[mergetool "meld"]
+	prompt = false
+	keepBackup = false
+	keepTemporaries = false
+	path = C:/Program Files (x86)/Meld/Meld.exe
+#	cmd = '\"/c/Program Files (x86)/Meld/meld/meld.exe\" $PWD/$LOCAL $PWD/$BASE $PWD/$REMOTE --output=$PWD/$MERGED'
