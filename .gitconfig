@@ -1,5 +1,7 @@
 [user]
-	name = CJ Sveningsson
-	email = cj.sveningsson@fgirot.se
+	name = Konfigurera namn i ~/.gitconfig
+	email = fornamn.efternamn@fgirot.se
+
 [alias]
+	# Ett exempel på användbart git alias, utöka dem gärna!
 	logg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
