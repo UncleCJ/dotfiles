@@ -14,3 +14,5 @@
 	amendm = git commit --amend -m
 [rerere]
 	enabled = true
+[push]
+	default = simple
