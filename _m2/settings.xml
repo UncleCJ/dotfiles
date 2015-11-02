@@ -12,7 +12,7 @@
    <mirror>
      <id>artifactory</id>
      <mirrorOf>*</mirrorOf>
-     <url> http://prdmvn01:8081/artifactory/repo </url>
+     <url> https://prdmvn02.fgirot.se:8443/artifactory/repo </url>
      <name>Artifactory</name>
    </mirror>
  </mirrors>
@@ -25,7 +25,7 @@
      <repositories>
        <repository>
          <id>artifactory-fgirot</id>
-         <url>http://prdmvn01:8081/artifactory/repo</url>
+         <url>https://prdmvn02.fgirot.se:8443/artifactory/repo</url>
          <snapshots>
            <enabled>true</enabled>
          </snapshots>
