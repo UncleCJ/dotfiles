@@ -1,7 +1,7 @@
 
 [user]
-	name = Konfigurera namn i ~/.gitconfig
-	email = fornamn.efternamn@fgirot.se
+	name = CJ Sveningsson
+	email = cj.sveningsson@fgirot.se
 [alias]
 	co = checkout
 	st  = status
