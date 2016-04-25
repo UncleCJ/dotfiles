@@ -3,6 +3,9 @@
 	filemode = true
 	bare = false
 	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
 [remote "ik-api-gateway"]
 	url = git@bitbucket.org:fgirot-ik/ik-api-gateway.git
 	fetch = +refs/heads/*:refs/remotes/ik-api-gateway/*
@@ -45,9 +48,6 @@
 [remote "docker-sso"]
 	url = git@bitbucket.org:fgirot-ik/docker-sso.git
 	fetch = +refs/heads/*:refs/remotes/docker-sso/*
-[branch "docker-sso-integration"]
-	remote = docker-sso
-	merge = refs/heads/master
 [remote "ik-web-frontend"]
 	url = git@bitbucket.org:fgirot-ik/ik-web-frontend.git
 	fetch = +refs/heads/*:refs/remotes/ik-web-frontend/*
@@ -99,3 +99,9 @@
 [remote "test-tools"]
 	url = git@bitbucket.org:fgirot-ik/test-tools.git
 	fetch = +refs/heads/*:refs/remotes/test-tools/*
+[remote "fgirot-parent-pom"]
+	url = git@bitbucket.org:fgirot-ik/fgirot-parent-pom.git
+	fetch = +refs/heads/*:refs/remotes/fgirot-parent-pom/*
+[remote "ik-commons"]
+	url = git@bitbucket.org:fgirot-ik/ik-commons.git
+	fetch = +refs/heads/*:refs/remotes/ik-commons/*
