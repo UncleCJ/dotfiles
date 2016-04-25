@@ -105,3 +105,18 @@
 [remote "ik-commons"]
 	url = git@bitbucket.org:fgirot-ik/ik-commons.git
 	fetch = +refs/heads/*:refs/remotes/ik-commons/*
+[branch "user-dev-29"]
+	remote = user-service-config
+	merge = refs/heads/docker
+[branch "apigw-dev-29"]
+	remote = ik-api-gateway-config
+	merge = refs/heads/docker
+[branch "lonefil-dev-29"]
+	remote = lonefil-service-config
+	merge = refs/heads/DEV-29-Konfigurationsstadning
+[branch "web-dev-29"]
+	remote = ik-web-config
+	merge = refs/heads/docker
+[branch "sso-acc-new"]
+	remote = sso-service-config
+	merge = refs/heads/acceptance-test-new
