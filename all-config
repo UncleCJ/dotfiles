@@ -1,0 +1,101 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "ik-api-gateway"]
+	url = git@bitbucket.org:fgirot-ik/ik-api-gateway.git
+	fetch = +refs/heads/*:refs/remotes/ik-api-gateway/*
+[remote "ik-api-gateway-config"]
+	url = git@bitbucket.org:fgirot-ik/ik-api-gateway-config.git
+	fetch = +refs/heads/*:refs/remotes/ik-api-gateway-config/*
+[remote "ik-web"]
+	url = git@bitbucket.org:fgirot-ik/ik-web.git
+	fetch = +refs/heads/*:refs/remotes/ik-web/*
+[remote "ik-web-config"]
+	url = git@bitbucket.org:fgirot-ik/ik-web-config.git
+	fetch = +refs/heads/*:refs/remotes/ik-web-config/*
+[remote "lonefil-service"]
+	url = git@bitbucket.org:fgirot-ik/lonefil-service.git
+	fetch = +refs/heads/*:refs/remotes/lonefil-service/*
+[remote "lonefil-service-config"]
+	url = git@bitbucket.org:fgirot-ik/lonefil-service-config.git
+	fetch = +refs/heads/*:refs/remotes/lonefil-service-config/*
+[remote "sso-service"]
+	url = git@bitbucket.org:fgirot-ik/sso-service.git
+	fetch = +refs/heads/*:refs/remotes/sso-service/*
+[remote "sso-service-config"]
+	url = git@bitbucket.org:fgirot-ik/sso-service-config.git
+	fetch = +refs/heads/*:refs/remotes/sso-service-config/*
+[remote "user-service"]
+	url = git@bitbucket.org:fgirot-ik/user-service.git
+	fetch = +refs/heads/*:refs/remotes/user-service/*
+[remote "user-service-config"]
+	url = git@bitbucket.org:fgirot-ik/user-service-config.git
+	fetch = +refs/heads/*:refs/remotes/user-service-config/*
+[remote "eureka-service"]
+	url = git@bitbucket.org:fgirot-ik/eureka-service.git
+	fetch = +refs/heads/*:refs/remotes/eureka-service/*
+[remote "eureka-service-config"]
+	url = git@bitbucket.org:fgirot-ik/eureka-service-config.git
+	fetch = +refs/heads/*:refs/remotes/eureka-service-config/*
+[remote "docker-ik-base"]
+	url = git@bitbucket.org:fgirot-ik/docker-ik-base.git
+	fetch = +refs/heads/*:refs/remotes/docker-ik-base/*
+[remote "docker-sso"]
+	url = git@bitbucket.org:fgirot-ik/docker-sso.git
+	fetch = +refs/heads/*:refs/remotes/docker-sso/*
+[branch "docker-sso-integration"]
+	remote = docker-sso
+	merge = refs/heads/master
+[remote "ik-web-frontend"]
+	url = git@bitbucket.org:fgirot-ik/ik-web-frontend.git
+	fetch = +refs/heads/*:refs/remotes/ik-web-frontend/*
+[remote "ik-fgvmfunctions"]
+	url = git@bitbucket.org:fgirot-ik/ik-fgvmfunctions.git
+	fetch = +refs/heads/*:refs/remotes/ik-fgvmfunctions/*
+[remote "environment-access"]
+	url = git@bitbucket.org:fgirot-ik/environment-access.git
+	fetch = +refs/heads/*:refs/remotes/environment-access/*
+[remote "idp-mock-service"]
+	url = git@bitbucket.org:fgirot-ik/idp-mock-service.git
+	fetch = +refs/heads/*:refs/remotes/idp-mock-service/*
+[remote "idp-mock-service-config"]
+	url = git@bitbucket.org:fgirot-ik/idp-mock-service-config.git
+	fetch = +refs/heads/*:refs/remotes/idp-mock-service-config/*
+[remote "coins-jobqueue-config"]
+	url = git@bitbucket.org:fgirot-ik/coins-jobqueue-config.git
+	fetch = +refs/heads/*:refs/remotes/coins-jobqueue-config/*
+[remote "coins-login-config"]
+	url = git@bitbucket.org:fgirot-ik/coins-login-config.git
+	fetch = +refs/heads/*:refs/remotes/coins-login-config/*
+[remote "coins-server-config"]
+	url = git@bitbucket.org:fgirot-ik/coins-server-config.git
+	fetch = +refs/heads/*:refs/remotes/coins-server-config/*
+[remote "compose-ik-full"]
+	url = git@bitbucket.org:fgirot-ik/compose-ik-full.git
+	fetch = +refs/heads/*:refs/remotes/compose-ik-full/*
+[remote "compose-personal-prod-copy"]
+	url = git@bitbucket.org:fgirot-ik/compose-personal-prod-copy.git
+	fetch = +refs/heads/*:refs/remotes/compose-personal-prod-copy/*
+[remote "docker-coins-base"]
+	url = git@bitbucket.org:fgirot-ik/docker-coins-base.git
+	fetch = +refs/heads/*:refs/remotes/docker-coins-base/*
+[remote "docker-proxy"]
+	url = git@bitbucket.org:fgirot-ik/docker-proxy.git
+	fetch = +refs/heads/*:refs/remotes/docker-proxy/*
+[remote "qa-commons"]
+	url = git@bitbucket.org:fgirot-ik/qa-commons.git
+	fetch = +refs/heads/*:refs/remotes/qa-commons/*
+[remote "qa-rules"]
+	url = git@bitbucket.org:fgirot-ik/qa-rules.git
+	fetch = +refs/heads/*:refs/remotes/qa-rules/*
+[remote "robot-framework-mailhog"]
+	url = git@bitbucket.org:fgirot-ik/robot-framework-mailhog.git
+	fetch = +refs/heads/*:refs/remotes/robot-framework-mailhog/*
+[remote "robot-framework-test"]
+	url = git@bitbucket.org:fgirot-ik/robot-framework-test.git
+	fetch = +refs/heads/*:refs/remotes/robot-framework-test/*
+[remote "test-tools"]
+	url = git@bitbucket.org:fgirot-ik/test-tools.git
+	fetch = +refs/heads/*:refs/remotes/test-tools/*
