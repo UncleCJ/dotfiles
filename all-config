@@ -113,17 +113,41 @@
 	fetch = +refs/heads/*:refs/remotes/ik-crypto/*
 [branch "user-dev-29"]
 	remote = user-service-config
-	merge = refs/heads/docker
+	merge = refs/heads/DEV-29-Konfigurationsstadning
 [branch "apigw-dev-29"]
 	remote = ik-api-gateway-config
-	merge = refs/heads/docker
+	merge = refs/heads/DEV-29-Konfigurationsstadning
 [branch "lonefil-dev-29"]
 	remote = lonefil-service-config
 	merge = refs/heads/DEV-29-Konfigurationsstadning
 [branch "web-dev-29"]
 	remote = ik-web-config
-	merge = refs/heads/docker
+	merge = refs/heads/DEV-29-Konfigurationsstadning
 [branch "sso-acc-new"]
 	remote = sso-service-config
 	merge = refs/heads/acceptance-test-new
->>>>>>> Lägg till remotes för ik-crypto och environment-vm-config
+[branch "sso-dev-29"]
+	remote = sso-service-config
+	merge = refs/heads/DEV-29-Konfigurationsstadning
+[branch "envaccess"]
+	remote = environment-access
+	merge = refs/heads/master
+[branch "jobque-docker"]
+	remote = coins-jobqueue-config
+	merge = refs/heads/docker
+[branch "lonefil-config"]
+	remote = lonefil-service-config
+	merge = refs/heads/docker
+[branch "lonefil-acc"]
+	remote = lonefil-service-config
+	merge = refs/heads/acceptance-test
+[branch "lonefil-sys"]
+	remote = lonefil-service-config
+	merge = refs/heads/system-test
+[branch "vmconfig"]
+	remote = environment-vm-config
+	merge = refs/heads/development-cj
+[branch "vmconfig-cj"]
+	remote = environment-vm-config
+	merge = refs/heads/development-cj-personal
+>>>>>>> Lokala grenar och uppdateringar av dem
