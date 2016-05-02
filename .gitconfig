@@ -15,7 +15,7 @@
 [rerere]
 	enabled = true
 [push]
-	default = simple
+	default = upstream
 # TODO: Trying to do this on windows
 # http://stackoverflow.com/questions/14821358/git-mergetool-with-meld-on-windows
 [merge]
