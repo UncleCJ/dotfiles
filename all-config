@@ -105,6 +105,12 @@
 [remote "ik-commons"]
 	url = git@bitbucket.org:fgirot-ik/ik-commons.git
 	fetch = +refs/heads/*:refs/remotes/ik-commons/*
+[remote "environment-vm-config"]
+	url = git@bitbucket.org:fgirot-ik/environment-vm-config.git
+	fetch = +refs/heads/*:refs/remotes/environment-vm-config/*
+[remote "ik-crypto"]
+	url = git@bitbucket.org:fgirot-ik/ik-crypto.git
+	fetch = +refs/heads/*:refs/remotes/ik-crypto/*
 [branch "user-dev-29"]
 	remote = user-service-config
 	merge = refs/heads/docker
@@ -120,3 +126,4 @@
 [branch "sso-acc-new"]
 	remote = sso-service-config
 	merge = refs/heads/acceptance-test-new
+>>>>>>> Lägg till remotes för ik-crypto och environment-vm-config
