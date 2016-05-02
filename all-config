@@ -111,6 +111,9 @@
 [remote "ik-crypto"]
 	url = git@bitbucket.org:fgirot-ik/ik-crypto.git
 	fetch = +refs/heads/*:refs/remotes/ik-crypto/*
+[branch "environment-access-cj"]
+	remote = environment-access
+	merge = refs/heads/master
 [branch "user-dev-29"]
 	remote = user-service-config
 	merge = refs/heads/DEV-29-Konfigurationsstadning
@@ -150,4 +153,15 @@
 [branch "vmconfig-cj"]
 	remote = environment-vm-config
 	merge = refs/heads/development-cj-personal
->>>>>>> Lokala grenar och uppdateringar av dem
+[branch "eureka-dev-29"]
+	remote = eureka-service-config
+	merge = refs/heads/DEV-29-Konfigurationsstadning
+[branch "apigw-dev-29"]
+	remote = ik-api-gateway-config
+	merge = refs/heads/DEV-29-Konfigurationsstadning
+[branch "web-dev-29"]
+	remote = ik-web-config
+	merge = refs/heads/DEV-29-Konfigurationsstadning
+[branch "sso-acc"]
+	remote = sso-service-config
+	merge = refs/heads/acceptance-test-new
