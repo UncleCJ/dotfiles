@@ -265,7 +265,7 @@ statusbar = {
   };
 };
 settings = {
-  core = { real_name = "I have not configured irssi"; user_name = "foobarname"; nick = "foobarnick"; };
+  core = { real_name = "CJ Sveningsson"; user_name = "cj"; nick = "cj"; };
   "fe-text" = { actlist_sort = "refnum"; };
 };
 ignores = (
