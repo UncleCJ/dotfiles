@@ -13,6 +13,8 @@
 	amend = git commit --amend -C HEAD
 	# Add changes to be committed to previous commit, using a message you define
 	amendm = git commit --amend -m
+[rerere]
+	enabled = true
 [push]
 	default = simple
 [merge]
