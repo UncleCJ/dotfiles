@@ -29,7 +29,7 @@
 
 [core]
 	editor = vi
-	autocrlf = true
+	autocrlf = false
 	excludesfile = C:\\Users\\carl-johan.sveningss\\Documents\\gitignore_global.txt
 	# TODO: Need to write a wrapper script to use windows tools?
 	# http://stackoverflow.com/questions/1634161/how-do-i-use-notepad-or-other-with-msysgit
