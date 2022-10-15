@@ -97,3 +97,10 @@ set wildignore+=*/coverage/*
 " " wget -O ~/.vim/ftplugin/python_editing.vim
 " http://www.vim.org/scripts/download_script.php?src_id=5492
 set nofoldenable
+
+call plug#begin()
+Plug 'untitled-ai/jupyter_ascending.vim'
+call plug#end()
+
+nmap <space><space>x <Plug>JupyterExecute
+nmap <space><space>X <Plug>JupyterExecuteAll
