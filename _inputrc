@@ -1,0 +1,3 @@
+# https://blog.sanctum.geek.nz/vi-mode-in-bash
+set editing-mode vi
+set keymap vi-insert
