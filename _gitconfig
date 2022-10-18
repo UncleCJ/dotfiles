@@ -1,4 +1,3 @@
-
 [user]
 	name = CJ Sveningsson
 	email = cj.sveningsson@hiq.se
@@ -22,21 +21,22 @@
 	enabled = true
 [core]
 	editor = vim
-	# BUG: autocrlf seems pesky, disable it
-	autocrlf = false
+	autocrlf = input
 	# TODO: gitconfig on windows needs cleaning
 	#excludesfile = C:\\Users\\carl-johan.sveningss\\Documents\\gitignore_global.txt
 	# TODO: Need to write a wrapper script to use windows tools?
 	# http://stackoverflow.com/questions/1634161/how-do-i-use-notepad-or-other-with-msysgit
 	# C:/Program Files (x86)/Notepad++/notepad++.exe
-[pull]
-	rebase = true
 [push]
 	default = upstream
+
+[pull]
+	rebase = true
 [rebase]
 	autosquash = true
 [rerere]
 	enabled = true
+
 # TODO: Trying to do this on windows
 # http://stackoverflow.com/questions/14821358/git-mergetool-with-meld-on-windows
 [merge]
@@ -52,7 +52,6 @@
 	cmd = git-nbdifftool diff \"$LOCAL\" \"$REMOTE\" \"$BASE\"
 [mergetool "nbdime"]
 	cmd = git-nbmergetool merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
-
 [diff "jupyternotebook"]
 	command = git-nbdiffdriver diff
 [merge "jupyternotebook"]
