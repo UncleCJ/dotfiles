@@ -89,4 +89,7 @@ function vncNextRes()
 alias copy='rsync -r -v --progress'
 alias open=xdg-open
 
-export PATH=$HOME/opt:$HOME/.local/bin:$PATH
+export PATH=$HOME/opt:$HOME/.local/bin:$PATHif [ -z $SSH_AUTH_SOCK ]; then
+   eval $(ssh-agent)
+   ssh-add
+fi
