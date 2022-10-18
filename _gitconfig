@@ -1,8 +1,15 @@
-
 [user]
 	name = CJ Sveningsson
 	email = cj.sveningsson@hiq.se
 	# email = cj.sveningsson@gmail.com
+[core]
+	editor = vim
+	autocrlf = input
+	# TODO: gitconfig on windows needs cleaning
+	#excludesfile = C:\\Users\\carl-johan.sveningss\\Documents\\gitignore_global.txt
+	# TODO: Need to write a wrapper script to use windows tools?
+	# http://stackoverflow.com/questions/1634161/how-do-i-use-notepad-or-other-with-msysgit
+	# C:/Program Files (x86)/Notepad++/notepad++.exe
 [alias]
 	co = checkout
 	st  = status
@@ -18,41 +25,33 @@
 	rh = reset --hard 
 	move = mv
 	copy = cp
-[rerere]
-	enabled = true
-[core]
-	editor = vim
-	# BUG: autocrlf seems pesky, disable it
-	autocrlf = false
-	# TODO: gitconfig on windows needs cleaning
-	#excludesfile = C:\\Users\\carl-johan.sveningss\\Documents\\gitignore_global.txt
-	# TODO: Need to write a wrapper script to use windows tools?
-	# http://stackoverflow.com/questions/1634161/how-do-i-use-notepad-or-other-with-msysgit
-	# C:/Program Files (x86)/Notepad++/notepad++.exe
-[pull]
-	rebase = true
 [push]
 	default = upstream
+[pull]
+	rebase = true
 [rebase]
 	autosquash = true
 [rerere]
 	enabled = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
 # TODO: Trying to do this on windows
 # http://stackoverflow.com/questions/14821358/git-mergetool-with-meld-on-windows
-[merge]
-	tool = meld
+# [merge]
+# 	tool = meld
 [mergetool "meld"]
 	prompt = false
 	keepBackup = false
 	keepTemporaries = false
 	path = C:/Program Files (x86)/Meld/Meld.exe
 #	cmd = '\"/c/Program Files (x86)/Meld/meld/meld.exe\" $PWD/$LOCAL $PWD/$BASE $PWD/$REMOTE --output=$PWD/$MERGED'
-
 [difftool "nbdime"]
 	cmd = git-nbdifftool diff \"$LOCAL\" \"$REMOTE\" \"$BASE\"
 [mergetool "nbdime"]
 	cmd = git-nbmergetool merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
-
 [diff "jupyternotebook"]
 	command = git-nbdiffdriver diff
 [merge "jupyternotebook"]
