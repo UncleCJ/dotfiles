@@ -27,6 +27,9 @@
 	# TODO: Need to write a wrapper script to use windows tools?
 	# http://stackoverflow.com/questions/1634161/how-do-i-use-notepad-or-other-with-msysgit
 	# C:/Program Files (x86)/Notepad++/notepad++.exe
+
+[fetch]
+	prune = true
 [push]
 	default = upstream
 
