@@ -80,3 +80,15 @@ function vncNextRes()
 }
 
 export PATH=$HOME/opt:$HOME/.local/bin:$PATH
+
+if [ -z $SSH_AUTH_SOCK ]; then
+   eval $(ssh-agent)
+fi
+
+if [ -z $SSH_AUTH_SOCK ]; then
+    echo "WARN: Still no \$SSH_AUTH_SOCK, skipping unlock of identities" >&2
+else
+    if ! ssh-add -L > /dev/null; then
+        ssh-add
+    fi
+fi
