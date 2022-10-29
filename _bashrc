@@ -89,7 +89,16 @@ function vncNextRes()
 alias copy='rsync -r -v --progress'
 alias open=xdg-open
 
-export PATH=$HOME/opt:$HOME/.local/bin:$PATHif [ -z $SSH_AUTH_SOCK ]; then
-   eval $(ssh-agent)
-   ssh-add
+export PATH=$HOME/opt:$HOME/.local/bin:$PATH
+
+if [ -z $SSH_AUTH_SOCK ]; then
+    eval $(ssh-agent)
+fi
+
+if [ -z $SSH_AUTH_SOCK ]; then
+    echo "WARN: Still no \$SSH_AUTH_SOCK, skipping unlock of identities" 
+else
+    if ! ssh-add -L > /dev/null; then
+        ssh-add
+    fi
 fi
