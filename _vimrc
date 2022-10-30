@@ -36,9 +36,9 @@ filetype plugin indent on
 syntax on
 
 " Showing line numbers and length
-set number " show line numbers
+set relativenumber " show line numbers
 set tw=79 " width of document (used by gd)
-set nowrap " don't automatically wrap on load
+set wrap " don't automatically wrap on load
 set fo-=t " don't automatically wrap text when typing
 set colorcolumn=80
 highlight ColorColumn ctermbg=233
@@ -98,9 +98,9 @@ set wildignore+=*/coverage/*
 " http://www.vim.org/scripts/download_script.php?src_id=5492
 set nofoldenable
 
-call plug#begin()
-Plug 'untitled-ai/jupyter_ascending.vim'
-call plug#end()
+" call plug#begin()
+" Plug 'untitled-ai/jupyter_ascending.vim'
+" call plug#end()
 
 nmap <space><space>x <Plug>JupyterExecute
 nmap <space><space>X <Plug>JupyterExecuteAll
