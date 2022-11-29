@@ -1,0 +1,14 @@
+ban.quietlight-plus
+dahong.theme-bear
+dhedgecock.radical-vscode
+dillonchanis.midnight-city
+equinusocio.vsc-material-theme-icons
+huacat.office-theme
+max-SS.Cyberpunk
+ms-vscode.cpptools-themes
+Nuuf.theme-hackershaze
+onecrayon.theme-quietlight-vsc
+PKief.material-icon-theme
+RobbOwen.synthwave-vscode
+vscode-icons-team.vscode-icons
+webrender.synthwave-x-fluoromachine

@@ -1,0 +1,52 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "material-icon-theme",
+    "redhat.telemetry.enabled": false,
+    "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.allowChords": false,
+    "jupyter.askForKernelRestart": false,
+    "remote.SSH.remotePlatform": {
+        "pi4-raspberrypi.local": "linux"
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "editor.renderWhitespace": "all",
+    "workbench.sideBar.location": "right",
+    "security.workspace.trust.untrustedFiles": "open",
+    "sparql-executor.endpoints": [
+        {
+            "protocol": "https",
+            "host": "query.wikidata.org",
+            "path": "/sparql",
+            "name": "Wikidata",
+            "customHeaders": [
+                {
+                    "headerName": "User-Agent",
+                    "headerValue": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:87.0) Gecko/20100101 Firefox/87.0"
+                },
+            ],
+            "method": "GET",
+            "queryParameterName": "query"
+        },
+        {
+            "protocol": "https",
+            "host": "dbpedia.org",
+            "name": "DBpedia",
+            "path": "/sparql"
+        }
+    ],
+    "cmake.configureOnOpen": true,
+    "workbench.colorTheme": "Cyberpunk",
+    "git.autofetch": true,
+    "VSCodeNotion.accessToken": "75378ee2b791025c8975ec3e6c68456acd10d60c2d920dba8d9f266630c814a5f44501dc3cb6d20c622d3a9a78210ef2dd6e6c863e5c35c730de3bc5b37ac6ef4b26886f0543c2d84cf123752ecc",
+    "VSCodeNotion.allowEmbeds": true,
+    "explorer.copyRelativePathSeparator": "/",
+    "editor.lineNumbers": "relative",
+    "editor.fontFamily": "'Fira Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontSize": 16,
+    "notebook.output.textLineLimit": 500,
+    "notebook.lineNumbers": "on",
+    "window.zoomLevel": 1
+}
