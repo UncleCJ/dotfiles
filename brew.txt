@@ -1,0 +1,52 @@
+# See https://apple.stackexchange.com/q/101090
+
+colima: Container runtimes on MacOS (and Linux) with minimal setup
+commitizen: Defines a standard way of committing rules and communicating it
+docker: Pack, ship and run any application as a lightweight container
+ffmpeg: Play, record, convert, and stream audio and video
+fish: User-friendly command-line shell for UNIX-like operating systems
+git: Distributed revision control system
+git-gui: Tcl/Tk UI for the git revision control system
+gnupg: GNU Pretty Good Privacy (PGP) package
+graphviz: Graph visualization software from AT&T and Bell Labs
+htop: Improved top (interactive process viewer)
+imagemagick: Tools and libraries to manipulate images in many formats
+ipython: Interactive computing in Python
+jq: Lightweight and flexible command-line JSON processor
+links: Lynx-like WWW browser that supports tables, menus, etc.
+minikube: Run a Kubernetes cluster locally
+pandoc: Swiss-army knife of markup format conversion
+pillow: Friendly PIL fork (Python Imaging Library)
+pyenv-virtualenv: Pyenv plugin to manage virtualenv
+sigrok-cli: Sigrok command-line interface to use logic analyzers and more
+terraform: Tool to build, change, and version infrastructure
+tmux: Terminal multiplexer
+vim: Vi 'workalike' with many additional features
+wget: Internet file retriever
+xmlstarlet: XML command-line utilities
+
+audacity: (Audacity) Multi-track audio editor and recorder
+basictex: (BasicTeX) Compact TeX distribution as alternative to the full TeX Live / MacTeX
+bitwarden: (Bitwarden) Desktop password and login vault
+calibre: (calibre) E-books management software
+cyberduck: (Cyberduck) Server and cloud storage browser
+discord: (Discord) Voice and text chat software
+disk-inventory-x: (Disk Inventory X) Disk usage utility
+drawio: (draw.io Desktop) Draw.io is free online diagram software
+gephi: (Gephi) Open-source platform for visualizing and manipulating large graphs
+gimp: (GIMP, GNU Image Manipulation Program) Free and open-source image editor
+inkscape: (Inkscape) Vector graphics editor
+kicad: (KiCad) Electronics design automation suite
+libreoffice: (LibreOffice) Office suite
+microsoft-teams: (Microsoft Teams) Meet, chat, call, and collaborate in just one place
+obs: (OBS) Open-source software for live streaming and screen recording
+openvpn-connect: (OpenVPN Connect client) Client program for the OpenVPN Access Server
+remarkable: (Remarkable) View, Screen Share, organize, import, and download files to a reMarkable device
+signal: (Signal) Instant messaging application focusing on security
+spotify: (Spotify) Music streaming service
+steam: (Steam) Video game digital distribution service
+telegram: (Telegram for macOS) Messaging app with a focus on speed and security
+visual-studio-code: (Microsoft Visual Studio Code, VS Code) Open-source code editor
+vlc: (VLC media player) Multimedia player
+wireshark: Graphical network analyzer and capture tool
+zoom: (Zoom.us) Video communication and virtual meeting platform
