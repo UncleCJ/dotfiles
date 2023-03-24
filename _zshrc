@@ -82,3 +82,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Use vi mode - https://stackoverflow.com/a/58188295
+bindkey -v
+
+bindkey ^R history-incremental-search-backward 
+bindkey ^S history-incremental-search-forward
