@@ -108,3 +108,11 @@ else
         ssh-add
     fi
 fi
+
+eval "$(direnv hook zsh)"
+
+# Lando
+export BB_USER=redacted
+export BB_TOKEN=redacted
+export LANDO_ROOT="$HOME/Documents/BSH"
+export PATH="$LANDO_ROOT/LANDODEVEL/starterkit/starterkit/bin:$PATH"

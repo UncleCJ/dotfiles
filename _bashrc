@@ -101,3 +101,9 @@ else
         ssh-add
     fi
 fi
+
+eval "$(direnv hook bash)"
+
+# Lando
+export LANDO_ROOT="$HOME/Documents/BSH"
+export PATH="$LANDO_ROOT/LANDODEVEL/starterkit/starterkit/bin:$PATH"
