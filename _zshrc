@@ -88,3 +88,14 @@ bindkey -v
 
 bindkey ^R history-incremental-search-backward 
 bindkey ^S history-incremental-search-forward
+
+if [[ -z "$SSH_AUTH_SOCK" ]]; then
+    eval $(ssh-agent)
+fi
+if [[ -z "$SSH_AUTH_SOCK" ]]; then
+    echo "WARN: Still no \$SSH_AUTH_SOCK, skipping unlock of identities" >&2
+else
+    if ! ssh-add -L > /dev/null; then
+        ssh-add
+    fi
+fi
