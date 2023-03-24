@@ -89,6 +89,11 @@ bindkey -v
 bindkey ^R history-incremental-search-backward 
 bindkey ^S history-incremental-search-forward
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+export PATH="$HOMEBREW_PREFIX/opt/openjdk/bin:$PATH"
+# gnubin contains a 'sed' link to 'gsed', overriding the broken MacOS one
+export PATH="$HOMEBREW_PREFIX/opt/gnu-sed/libexec/gnubin:$PATH"
+
 if [[ -z "$SSH_AUTH_SOCK" ]]; then
     eval $(ssh-agent)
 fi
