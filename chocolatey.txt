@@ -39,6 +39,7 @@ KB3033929
 KB3035131
 KB3063858
 libreoffice
+logitech-options
 make
 meld
 meshlab
@@ -63,7 +64,6 @@ rufus
 scratch
 Shotcut
 signal
-sketchup
 spotify
 steam-client
 telegram
