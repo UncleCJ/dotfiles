@@ -89,6 +89,8 @@ bindkey -v
 bindkey ^R history-incremental-search-backward 
 bindkey ^S history-incremental-search-forward
 
+export PATH="$HOME/opt:$HOME/.local/bin:$PATH"
+
 eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH="$HOMEBREW_PREFIX/opt/openjdk/bin:$PATH"
 # gnubin contains a 'sed' link to 'gsed', overriding the broken MacOS one
