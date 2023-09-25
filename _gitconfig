@@ -30,6 +30,8 @@
 	cloner = clone --recursive
 [push]
 	default = upstream
+[fetch]
+	prune = true
 [pull]
 	rebase = true
 [rebase]
