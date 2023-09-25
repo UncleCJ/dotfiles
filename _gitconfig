@@ -6,6 +6,7 @@
 [core]
 	editor = vim
 	autocrlf = input
+    pager = delta
 	# TODO: gitconfig on windows needs cleaning
 	#excludesfile = C:\\Users\\carl-johan.sveningss\\Documents\\gitignore_global.txt
 	# TODO: Need to write a wrapper script to use windows tools?
@@ -58,3 +59,7 @@
 [merge "jupyternotebook"]
 	driver = git-nbmergedriver merge %O %A %B %L %P
 	name = jupyter notebook merge driver
+[delta]
+    line-numbers = true
+    diff-so-fancy = true
+    navigate = true
