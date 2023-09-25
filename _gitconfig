@@ -1,6 +1,7 @@
 [user]
 	name = CJ Sveningsson
-	email = cj.sveningsson@hiq.se
+    email = carl-johan.sveningsson@hiq.se
+    # email = cj.sveningsson@hiq.se
 	# email = cj.sveningsson@gmail.com
 [core]
 	editor = vim
