@@ -1,10 +1,12 @@
 [user]
 	name = CJ Sveningsson
-	email = cj.sveningsson@hiq.se
+    email = carl-johan.sveningsson@hiq.se
+    # email = cj.sveningsson@hiq.se
 	# email = cj.sveningsson@gmail.com
 [core]
 	editor = vim
 	autocrlf = input
+    pager = delta
 	# TODO: gitconfig on windows needs cleaning
 	#excludesfile = C:\\Users\\carl-johan.sveningss\\Documents\\gitignore_global.txt
 	# TODO: Need to write a wrapper script to use windows tools?
@@ -25,8 +27,11 @@
 	rh = reset --hard 
 	move = mv
 	copy = cp
+	cloner = clone --recursive
 [push]
 	default = upstream
+[fetch]
+	prune = true
 [pull]
 	rebase = true
 [rebase]
@@ -57,3 +62,9 @@
 [merge "jupyternotebook"]
 	driver = git-nbmergedriver merge %O %A %B %L %P
 	name = jupyter notebook merge driver
+[submodule]
+	recurse = true
+[delta]
+    line-numbers = true
+    diff-so-fancy = true
+    navigate = true
