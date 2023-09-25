@@ -27,6 +27,7 @@
 	rh = reset --hard 
 	move = mv
 	copy = cp
+	cloner = clone --recursive
 [push]
 	default = upstream
 [pull]
@@ -59,6 +60,8 @@
 [merge "jupyternotebook"]
 	driver = git-nbmergedriver merge %O %A %B %L %P
 	name = jupyter notebook merge driver
+[submodule]
+	recurse = true
 [delta]
     line-numbers = true
     diff-so-fancy = true
